@@ -1,0 +1,161 @@
+body{
+  padding: 0;
+  margin:0;
+  background-color: #dcdde1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  left: 100px;
+}
+
+
+
+/*botones redes sociales empieza*/
+.medio{
+  position: absolute;
+  top: 12%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  background-color: #7f8fa6;
+}
+
+.btn{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: #f1f1f1;
+  margin:10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #192a56;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn i{
+  line-height: 45px;
+  font-size: 18px;
+  transition: 0.2s linear;
+}
+
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #192a56;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }
+  50%{
+    left: 10%;
+    top: -30%;
+  }
+  100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+/*botones redes sociales termina */
+
+/*Barra de menu empieza*/
+.header{
+  height: 100px;
+  background: #222f3e;
+  padding: 0 20px;
+  color: #fff;
+  padding-top: 150px;
+}
+.menu{
+  float: none;
+  line-height: 100px;
+  text-align: center;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+line-height: 100px;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition:  0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+  color: #54a0ff;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+.content{
+  padding
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+
+@media screen and(max-width: 800px){
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    padding: 80px 0;
+    text-align: center;
+    line-height: normal;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top:40px;
+    right:40px;
+  }
+}
+/*barra de menu termina*/
