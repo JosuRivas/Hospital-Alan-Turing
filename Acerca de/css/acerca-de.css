@@ -22,6 +22,7 @@ body{
   width: 100%;
   text-align: center;
   background-color: #7f8fa6;
+
 }
 
 .btn{
@@ -161,99 +162,56 @@ line-height: 100px;
 }
 /*barra de menu termina*/
 
-/* panel de sevicios inicia*/
-.seccion-servicios{
-  padding: 60px 0;
-}
-.inner-width{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+/*imagen y texto empieza*/
+
+.imagen{
+  width: 600px;
+  height: 350px;
 }
 
-.seccion-titulo{
-  text-align: center;
-  color: #black;
-  text-transform: uppercase;
-  font-size: 30px;
+.contenido{
+position: relative;
+left: 255px;
+float: left;
+padding-right: 18px;
+margin-right: 30px;
 }
 
-.borde{
-  width: 160px;
-  height: 2px;
-  background: #474787;
-  margin: 40px auto;
+.titulo{
+  text-align: left;
 }
-.contenedor-servicios{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/*barra derecha*/
+.menu-derecha{
+  float: right;
+  width: 38%;
+  height: 100%;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
-.caja-servicios{
-  max-width: 33.33%;
-  padding: 10px;
-  text-align: center;
-  color: black;
-  cursor: pointer;
+aside > header{
+  text-align: left;
 }
-
-.icono-servicios{
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 3px solid #474787;
-  color: #474787;
-  transform: rotate(45deg);
-  margin-bottom: 30px;
-  margin-top: 16px;
+.menu-derecha a{
+  display: block;
+  padding: 6px 8px 8px 16px;
+  background-color:#222f3e;
+  color: #fff;
+  width: 170px;
+  text-decoration: none;
   transition: 0.3s linear;
+
 }
 
-.icono-servicios i{
-  line-height: 70px;
-  transform: rotate(-45deg);
-  font-size: 26px;
-}
-
-.caja-servicios:hover .icono-servicios{
-  background: #474787;
-  color: black;
-}
-
-.titulo-servicio{
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.descripcion-servicio{
-  font-size: 14px;
-}
-
-@media screen and(max-width: 960px){
-  .caja-servicios{
-    max-width: 45%;
-  }
-}
-
-@media screen and(max-width: 768px){
-  .caja-servicios{
-    max-width: 50%;
-  }
-}
-
-@media screen and(max-width: 480px){
-  .caja-servicios{
-    max-width: 100%;
-  }
+.menu-derecha a:hover{
+  color:#487eb0;
 }
 
 .pie-pagina{
   text-align: center;
   background: #222f3e;
   color: #fff;
-  height: 50px;
-  top: 20px;
-  width: 100%;
+  height: 70px;
+  position: relative;
+  bottom: -600px;
 }
