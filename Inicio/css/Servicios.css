@@ -165,97 +165,7 @@ line-height: 100px;
 }
 /*barra de menu termina*/
 
-/* panel de sevicios inicia*/
-.seccion-servicios{
-  padding: 60px 0;
-}
-.inner-width{
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
-}
-
-.seccion-titulo{
-  text-align: center;
-  color: #black;
-  text-transform: uppercase;
-  font-size: 30px;
-
-}
-.seccion-titulo a:hover{
-	color: #1DC010 ;
-}
-.borde{
-  width: 160px;
-  height: 2px;
-  background: #474787;
-  margin: 40px auto;
-}
-.contenedor-servicios{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.caja-servicios{
-  max-width: 33.33%;
-  padding: 10px;
-  text-align: center;
-  color: black;
-  cursor: pointer;
-}
-
-.icono-servicios{
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 3px solid #474787;
-  color: #474787;
-  transform: rotate(45deg);
-  margin-bottom: 30px;
-  margin-top: 16px;
-  transition: 0.3s linear;
-}
-
-.icono-servicios i{
-  line-height: 70px;
-  transform: rotate(-45deg);
-  font-size: 26px;
-}
-
-.caja-servicios:hover .icono-servicios{
-  background: #474787;
-  color: black;
-}
-
-.titulo-servicio{
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.descripcion-servicio{
-  font-size: 14px;
-}
-
-@media screen and(max-width: 960px){
-  .caja-servicios{
-    max-width: 45%;
-  }
-}
-
-@media screen and(max-width: 768px){
-  .caja-servicios{
-    max-width: 50%;
-  }
-}
-
-@media screen and(max-width: 480px){
-  .caja-servicios{
-    max-width: 100%;
-  }
-}
-
+/*Para el pie de pagina*/
 .pie-pagina{
   text-align: center;
   background: #222f3e;
@@ -264,3 +174,4 @@ line-height: 100px;
   top: 20px;
   width: 100%;
 }
+/*Termina el pie de pagina*/
