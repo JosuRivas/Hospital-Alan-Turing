@@ -5,6 +5,10 @@ body{
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
+/*para borrar la linea del hiperenlace*/
+a{
+	text-decoration: none
+}
 
 .logo{
   width: 60px;
@@ -177,8 +181,11 @@ line-height: 100px;
   color: #black;
   text-transform: uppercase;
   font-size: 30px;
-}
 
+}
+.seccion-titulo a:hover{
+	color: #1DC010 ;
+}
 .borde{
   width: 160px;
   height: 2px;
