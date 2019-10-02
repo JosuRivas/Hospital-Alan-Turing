@@ -30,6 +30,24 @@
     <a class="btn" href="#">
      <i class="fab fa-youtube"></i>
     </a>
+      <form id="busqueda">
+          <div class="caja-busqueda"><!--search box-->
+        <input class="txt-busqueda" type="text" name="" value="Haz una búsqueda" id="buscar" onkeyup="filtrarPaginas()" autocomplete="off">
+          <a href="#" class="boton-busqueda">
+            <i class="fas fa-search"></i>
+          </a>
+          <div id="lista" class="desplegable">
+            <div class="contenido">
+              <li><a href="../Acerca de/Acerca-de.html">Quienes somos</a></li>
+              <li><a href="#">Contáctanos</a></li>
+              <li><a href="#">Mapa del sitio</a></li>
+              <li><a href="#">Informacion para pacientes</a></li>
+              <li><a href="#">Servicios del hospital</a></li>
+            </div>
+          </div>
+          </div>
+
+      </form>
   </div>
   <div class="header">
     <!--Barra de menu-->
@@ -39,8 +57,8 @@
     </label>
     <ul class="menu">
       <a href="#">Inicio</a>
-      <a href="">Acerca del Hospital</a>
-      <a href="">Contáctanos</a>
+      <a href="../Acerca de/Acerca-de.html">Acerca del Hospital</a>
+      <a href="#">Contáctanos</a>
       <a href="#">Mapa del Sitio</a>
       <a href="#">Informacion para pacientes</a>
       <label for="chk" class="hide-menu-btn">
@@ -113,5 +131,6 @@
     </div>
     <!--footer-->
     <footer class="pie-pagina">Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador</footer>
+    <script src="js/inicio.js"></script>
 </body>
 </html>

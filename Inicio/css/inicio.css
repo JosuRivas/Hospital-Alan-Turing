@@ -26,8 +26,8 @@ body{
 
 .btn{
   display: inline-block;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   background: #f1f1f1;
   margin:10px;
   border-radius: 30%;
@@ -38,8 +38,8 @@ body{
 }
 
 .btn i{
-  line-height: 45px;
-  font-size: 18px;
+  line-height: 50px;
+  font-size: 28px;
   transition: 0.2s linear;
 }
 
@@ -257,3 +257,93 @@ line-height: 100px;
   top: 20px;
   width: 100%;
 }
+
+/* caja de busqueda empieza*/
+
+.caja-busqueda{
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  background: #f1f1f1;
+  height: 40px;
+  border-radius: 30px;
+  padding: 13px;
+
+}
+.caja-busqueda:hover > .txt-busqueda{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.caja-busqueda:hover > .boton-busqueda{
+background: #192a56;
+color: #f1f1f1;
+
+}
+
+.boton-busqueda{
+  color: #192a56;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt-busqueda{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  color: #192a56;
+  line-height: 40px;
+  width: 0px;
+}
+
+.desplegable{
+  position: relative;
+  display: inline-block;
+}
+
+.contenido{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  z-index: -1;
+  right: -8px;
+  top: 37px;
+
+}
+
+.contenido a{
+  color: #222f3e;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.caja-busqueda:hover .contenido{
+  display: block;
+}
+
+.contenido a:hover{
+   background-color: #222f3e;
+   color: #f1f1f1;
+   transition: 0.2s linear;
+   cursor: pointer;
+}
+
+.contenido li{
+  list-style: none;
+}
+
+/* caja de busqueda termina /*
