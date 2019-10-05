@@ -215,3 +215,91 @@ aside > header{
   position: relative;
   bottom: -600px;
 }
+/* caja de busqueda empieza*/
+.caja-busqueda{
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  background: #f1f1f1;
+  height: 40px;
+  border-radius: 30px;
+  padding: 13px;
+
+}
+.caja-busqueda:hover > .txt-busqueda{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.caja-busqueda:hover > .boton-busqueda{
+background: #192a56;
+color: #f1f1f1;
+
+}
+
+.boton-busqueda{
+  color: #192a56;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt-busqueda{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  color: #192a56;
+  line-height: 40px;
+  width: 0px;
+}
+
+.desplegable{
+  position: relative;
+  display: inline-block;
+}
+
+.enlaces{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  z-index: -1;
+  right: -8px;
+  top: 37px;
+
+}
+
+.enlaces a{
+  color: #222f3e;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.caja-busqueda:hover .enlaces{
+  display: block;
+}
+
+.enlaces a:hover{
+   background-color: #222f3e;
+   color: #f1f1f1;
+   transition: 0.2s linear;
+   cursor: pointer;
+}
+
+.enlaces li{
+  list-style: none;
+}
+
+/* caja de busqueda termina /*
