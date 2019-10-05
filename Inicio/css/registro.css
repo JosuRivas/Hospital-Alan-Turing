@@ -1,15 +1,9 @@
-body{
-  padding: 0;
-  margin:0;
-  background-color: #f1f2f6;
-  font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box;
-}
+
 /*para borrar la linea del hiperenlace*/
 a{
 	text-decoration: none
 }
-/*Finaliza lo del enlace*/
+
 .logo{
   width: 60px;
   height: 60px;
@@ -85,154 +79,7 @@ a{
 }
 /*botones redes sociales termina */
 
-/*Barra de menu empieza*/
-.header{
-  height: 100px;
-  background: #222f3e;
-  padding: 0 20px;
-  color: #fff;
-  margin-top: 185px;
 
-}
-.menu{
-  float: none;
-  line-height: 100px;
-  text-align: center;
-}
-.menu a{
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0 10px;
-  transition: 0.4s;
-}
-.show-menu-btn{
-  float: right;
-}
-.show-menu-btn i{
-line-height: 100px;
-}
-.show-menu-btn,.hide-menu-btn{
-  transition:  0.4s;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-}
-.menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
-  color: #54a0ff;
-}
-
-#chk{
-  position: absolute;
-  visibility: hidden;
-  z-index: -1111;
-}
-.content{
-  padding
-}
-.content img{
-  width: 100%;
-  max-width: 700px;
-  margin: 20px 0;
-}
-.content p{
-  text-align: justify;
-}
-
-@media screen and(max-width: 800px){
-  .show-menu-btn,.hide-menu-btn{
-    display: block;
-  }
-  .menu{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #333;
-    right: -100%;
-    top: 0;
-    padding: 80px 0;
-    text-align: center;
-    line-height: normal;
-  }
-  .menu a{
-    display: block;
-    padding: 20px;
-  }
-  .hide-menu-btn{
-    position: absolute;
-    top:40px;
-    right:40px;
-  }
-}
-/*barra de menu termina*/
-
-/*Para el pie de pagina*/
-.pie-pagina{
-  text-align: center;
-  background: #222f3e;
-  color: #fff;
-
-
-  width: 100%;
-  position: absolute;
-}
-/*Termina el pie de pagina*/
-
-/*Inicio Slider*/
-.slider{
-  width: 95%;
-  margin:auto;
-  overflow: hidden;
-}
-
-.slider ul{
-  display: flex;/*Pone una imagen a la para de la otra*/
-  width: 400%;
-  padding: 0;
- height:75%;
-  animation: cambio 16s infinite alternate linear;
-}
-
-.slider li{
-  width: 100%;
-  list-style: none;
-
-}
-.slider img{
-  width: 100%;
-
-}
-
-@keyframes cambio{
-  0% {margin-left: 0;}
-  20%{margin-left: 0;}
-
-  25% {margin-left: -100%;}
-  45%{margin-left: -100%;}
-
-  50% {margin-left: -200%;}
-  70%{margin-left: -200%;}
-
-  75% {margin-left: -300%;}
-  100%{margin-left: -300%;}
-}
-/*#ele1{
-background-color: red;
-}
-#ele2{
-  background-color: green;
-}
-
-.s_element{
-  width: 100%;
-  height: 100%;
-  position: relative;
-
-}*/
-
-/*Fin slider*/
-
-/* caja de busqueda empieza*/
 .caja-busqueda{
   position: absolute;
   top: 75%;
@@ -318,4 +165,235 @@ color: #f1f1f1;
 .contenido li{
   list-style: none;
 }
-/* caja de busqueda termina*/
+
+/*Barra de menu empieza*/
+.header{
+  height: 100px;
+  background: #222f3e;
+  padding: 0 20px;
+  color: #fff;
+  margin-top: 185px;
+}
+.menu{
+  float: none;
+  line-height: 100px;
+  text-align: center;
+}
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.show-menu-btn{
+  float: right;
+}
+.show-menu-btn i{
+line-height: 100px;
+}
+.show-menu-btn,.hide-menu-btn{
+  transition:  0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.menu a:hover,.show-menu-btn:hover,.hide-menu-btn:hover{
+  color: #54a0ff;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+.content{
+  padding
+}
+.content img{
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+}
+.content p{
+  text-align: justify;
+}
+
+@media screen and(max-width: 800px){
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    padding: 80px 0;
+    text-align: center;
+    line-height: normal;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top:40px;
+    right:40px;
+  }
+}
+/*barra de menu termina*/
+
+/* caja de busqueda empieza*/
+
+.caja-busqueda{
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  background: #f1f1f1;
+  height: 40px;
+  border-radius: 30px;
+  padding: 13px;
+
+}
+.caja-busqueda:hover > .txt-busqueda{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.caja-busqueda:hover > .boton-busqueda{
+background: #192a56;
+color: #f1f1f1;
+
+}
+
+.boton-busqueda{
+  color: #192a56;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt-busqueda{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  color: #192a56;
+  line-height: 40px;
+  width: 0px;
+}
+
+.desplegable{
+  position: relative;
+  display: inline-block;
+}
+
+.contenido{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  z-index: -1;
+  right: -8px;
+  top: 37px;
+
+}
+
+.contenido a{
+  color: #222f3e;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.caja-busqueda:hover .contenido{
+  display: block;
+}
+
+.contenido a:hover{
+   background-color: #222f3e;
+   color: #f1f1f1;
+   transition: 0.2s linear;
+   cursor: pointer;
+}
+
+.contenido li{
+  list-style: none;
+}
+
+/* caja de busqueda termina /*
+
+/*empieza cuerpo*/
+body{
+  padding: 0;
+  margin:0;
+ /* background-color: #f1f2f6;*/
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+.enlace{
+  color: 
+}
+.tabblue{
+  background-color: #7f8fa6;
+  color: #222f3e;
+}
+.frm-registro{
+  background-color: #7f8fa6;
+color: white;
+}
+.btnregistro{
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;  
+  border: solid;
+  background-color:  #222f3e;
+  color: #fff; 
+}
+.materialfield{
+  position: relative;
+  margin: 1rem 0 2rem;
+}
+.registro-usuario{
+  width: 31rem;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+}  
+.iniciarsesion{
+  font-size: 14px;
+}
+.contraseña:valid, textarea:valid{
+    background-color: #bada55;
+  }
+.contraseña:invalid, textarea:invalid{
+    background-color: #ff8080;
+  }
+
+/*termina cuerpo*/
+
+/*Para el pie de pagina*/
+.pie-pagina{
+  text-align: center;
+  background: #222f3e;
+  color: #fff;
+  height: 50px;
+  top: 20px;
+  width: 100%;
+}
+/*Termina el pie de pagina*/
