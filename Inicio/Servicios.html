@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
             <link href="css/Servicios.css" rel="stylesheet">
-
                 <script crossorigin="anonymous" src="https://kit.fontawesome.com/5d99ebdb26.js">
                 </script>
                 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -12,6 +11,7 @@
                 </link>
             </link>
         </meta>
+       <script src="js/Servicios.js"></script>
     </head>
     <body>
         <div>
@@ -76,22 +76,83 @@
                 </input>
             </div>
             <div class="slider">
-               <ul>
-                   <li><a href="https://www.facebook.com"><img src="img/leonard.jpg"></a></li>
-                   <li><img src="img/penny.jpg"></li>
-                   <li><img src="img/Raj.jpg"></li>
-                   <li><img src="img/sheldon.jpg"></li>
-               </ul>
-
-               
-                    <!--footer-->
-                    <footer class="pie-pagina">
-                        Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador
-                    </footer>
-             
-           
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com">
+                            <img src="img/slider1.jpg"/>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/slider2.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/slider3.jpg"/>
+                    </li>
+                    <li>
+                        <img src="img/slider4.jpg"/>
+                    </li>
+                </ul>
             </div>
-           
+            <div class="btn-Solicitar-Cita">
+                <button onclick="location.href='Inicio.html'">Agendar Cita</button>
+            </div>
+            <div class="seleccion-servicios">
+                <div class="Cont-principal">
+                    <img id="img1" src="img/OurTeam.jpg">
+                    <p id="text1">
+                      Ofrecemos el mejor servicio en Medicina de todo el Pais, contando con doctores de todas la especialidades y estudios en el extrangero, con altos conociminetos de la tecnologia en vanguardia
+                    </p>
+                    <!--  <button id="boton3" style="display::;" type="button" onclick="MyFunction()">Ocultar</button>-->
+                </div>
+                <div class="ListD">
+                    <select id="OS" onchange="FEspecialidades()">
+                        <option value="0">
+                            Elige una opción
+                        </option>
+                        <optgroup label="Adultos">
+                            <option value="1">
+                                Cirugia Interna
+                            </option>
+                            <option value="2">
+                                Ondontologia
+                            </option>
+                        </optgroup>
+                        <optgroup label="Ninos">
+                            <option value="3">
+                                Pediatria
+                            </option>
+                        </optgroup>
+                    </select>
+                    <!--La lista de los Doctores-->
+                    <select id="OSS" onchange="FDocs()">
+                        <option value="0">
+                            Elige una opción
+                        </option>
+                        <optgroup label="Pediatras">
+                            <option value="1">
+                                Doctor Manuel
+                            </option>
+                            <option value="2">
+                                Doctor Jose
+                            </option>
+                        </optgroup>
+                        <optgroup label="Ciruganos">
+                            <option value="3">
+                                Doctora Nicol
+                            </option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+             <div class="btn-Solicitar-Cita2">
+                <button onclick="location.href='Inicio.html'">Agendar Cita</button>
+            </div>
+            <div class="footer">
+                <!--footer-->
+                <footer class="pie-pagina">
+                    Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador
+                </footer>
+            </div>
         </div>
     </body>
 </html>
