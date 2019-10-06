@@ -169,14 +169,6 @@ a {
 
 /*Para el pie de pagina*/
 
-
-.pie-pagina{
-  text-align: center;
-  background: #222f3e;
-  color: #fff;
-
-
-
 .pie-pagina {
     text-align: center;
     background: #222f3e;
@@ -212,11 +204,6 @@ a {
 .slider li {
     width: 100%;
     list-style: none;
-
-.slider img{
-  width: 100%;
-
-
 }
 .slider img {
     width: 100%;
