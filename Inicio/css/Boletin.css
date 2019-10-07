@@ -1,0 +1,45 @@
+.ContenidoPrin{
+	text-align: center;
+	
+	height: 350px;
+}
+.Form{
+	text-align: left;
+	 display: inline-block;
+	 padding: 15px;
+	 background-color: #F9F9F6;
+}
+
+.Form1{
+	text-align: left;
+	
+	margin: 20px;
+	margin-bottom: 6px;
+}
+#Enviar{
+	margin-left: 70px;
+	height: 30px;
+	width: 80px;
+	background-color: #F9F9D7;
+}
+#Enviar:hover{
+	font-weight: bold;
+	height: 35px;
+	width: 85px;
+}
+ #Reiniciar{
+ 	background-color: #F9F9D7;
+ 	height: 30px;
+	width: 80px;
+ }
+ #Reiniciar:hover{
+ 	font-weight: bold;
+ 	height: 35px;
+	width: 85px;
+ }
+ #Chbox{
+ 	margin-left: 35px;
+ }
+td{
+	padding-top:10px;
+}
