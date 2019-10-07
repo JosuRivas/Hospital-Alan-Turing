@@ -170,20 +170,28 @@ line-height: 100px;
 }
 
 .texto-imagen{
+  margin-top: 10px;
   width: 600px;
   justify-content: center;
+  text-align: justify;
 }
 
+#Contenido{
+  height: 350px;
+}
 .contenido{
 position: relative;
 left: 400px;
 float: left;
 padding-right: 18px;
 margin-right: 30px;
+
 }
 
 .titulo{
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+  font-size:  25px;  
 }
 /*barra derecha*/
 .menu-derecha{
@@ -208,7 +216,10 @@ aside > header{
 
 }
 
-
+.pie{
+  position: relative;
+  margin-top: 60px;
+}
 .pie-pagina{
   text-align: center;
   background: #222f3e;

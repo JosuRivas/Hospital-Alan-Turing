@@ -1,13 +1,20 @@
 
 
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 
 :focus{
     outline: none;
 }
 
-
+body{
+    background: #DBDBDB;
+    font-family: 'Montserrat';
+}
 
 /* FORMULARIO =================================== */
 
@@ -44,7 +51,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url('../img/fondo.jpg');
+    background-image: url('../fondo.jpg');
     background-size: cover;
     background-position: center center;
 
@@ -137,7 +144,7 @@ form.form_contact textarea{
     max-height: 90px;
 }
 
-.btnn{
+.btn{
     width: 180px;
 	background: #4091EC;
 	padding: 10px;
@@ -153,7 +160,7 @@ form.form_contact textarea{
 	cursor: pointer;
 }
 
-.btnn{
+.btn{
     background: #3371B6;
 }
 
