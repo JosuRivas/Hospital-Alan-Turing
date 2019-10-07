@@ -1,6 +1,6 @@
 .ContenidoPrin{
 	text-align: center;
-	
+
 	height: 350px;
 }
 .Form{
@@ -12,7 +12,7 @@
 
 .Form1{
 	text-align: left;
-	
+
 	margin: 20px;
 	margin-bottom: 6px;
 }
@@ -42,4 +42,23 @@
  }
 td{
 	padding-top:10px;
+}
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
+}
+.pie-pagina{
+  text-align: center;
+  background: #222f3e;
+  color: #fff;
+  height: 50px;
+  top: 20px;
+  width: 100%;
+  line-height: 50px;
 }
