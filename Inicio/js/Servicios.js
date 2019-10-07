@@ -33,3 +33,14 @@
          document.getElementById("text1").innerHTML = "Ofrecemos el mejor servicio en Medicina de todo el Pais, contando con doctores de todas la especialidades y estudios en el extrangero, con altos conociminetos de la tecnologia en vanguardia."
      }
  }
+
+ function FAumentoLetra(x){
+ //   x.style.height = '30px';
+  //  x.style.width = '180px';
+ }
+ function FDisminuyeLetra(x){
+    //x.style.height = '20px';
+  //  x.style.width = '150px';
+ //   x.style.display = 'block';
+  
+ }
