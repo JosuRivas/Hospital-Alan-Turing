@@ -116,7 +116,7 @@
                 </ul>
             </div>
             <div class="btn-Solicitar-Cita">
-                <button onclick="location.href='Inicio.html'">Agendar Cita</button>
+                <button  class="btnAgendarCita" onclick="location.href='Inicio.html'">Agendar Cita</button>
             </div>
             <div class="seleccion-servicios">
                 <div class="Cont-principal">
@@ -127,9 +127,9 @@
                     <!--  <button id="boton3" style="display::;" type="button" onclick="MyFunction()">Ocultar</button>-->
                 </div>
                 <div class="ListD">
-                    <select id="OS" onchange="FEspecialidades()">
+                    <select id="OS" onchange="FEspecialidades()" onmouseover="FAumentoLetra(this)" onmouseout="FDisminuyeLetra(this)"><!-- onmouseover y onmouseout no tienen nada asignado para ambas listas-->
                         <option value="0">
-                            Elige una opción
+                            Nuestras especialidades
                         </option>
                         <optgroup label="Adultos">
                             <option value="1">
@@ -146,9 +146,9 @@
                         </optgroup>
                     </select>
                     <!--La lista de los Doctores-->
-                    <select id="OSS" onchange="FDocs()">
+                    <select id="OSS" onchange="FDocs()" onmouseover="FAumentoLetra(this)" onmouseout="FDisminuyeLetra(this)">
                         <option value="0">
-                            Elige una opción
+                            Nuestros doctores
                         </option>
                         <optgroup label="Pediatras">
                             <option value="1">
@@ -167,7 +167,7 @@
                 </div>
             </div>
              <div class="btn-Solicitar-Cita2">
-                <button onclick="location.href='Inicio.html'">Agendar Cita</button>
+                <button class="btnAgendarCita" onclick="location.href='Inicio.html'">Agendar Cita</button>
             </div>
             <div class="footer">
                 <!--footer-->
