@@ -23,112 +23,191 @@
                 </img>
             </figure>
             <a class="btn" href="#">
-     <i class="fab fa-facebook-f"></i></a>
-    <a class="btn" href="#">
-     <i class="fab fa-twitter"></i></a>
-    <a class="btn" href="#">
-     <i class="fab fa-google"></i></a>
-    <a class="btn" href="#">
-     <i class="fab fa-instagram"></i></a>
-    <a class="btn" href="#">
-     <i class="fab fa-youtube"></i></a>
-
-      <form id="busqueda">
-          <div class="caja-busqueda"><!--search box-->
-        <input class="txt-busqueda" type="text" name="" value="Haz una búsqueda" id="buscar" onkeyup="filtrarPaginas()" autocomplete="off">
-          <a href="#" class="boton-busqueda">
-            <i class="fas fa-search"></i>
-          </a>
-          <div id="lista" class="desplegable">
-            <div class="contenido">
-              <li><a href="../Acerca de/Acerca-de.html">Quienes somos</a></li>
-              <li><a href="#">Contáctanos</a></li>
-              <li><a href="#">Mapa del sitio</a></li>
-              <li><a href="#">Informacion para pacientes</a></li>
-              <li><a href="#">Servicios del hospital</a></li>
-             <li><a href="../Registro/Registro.html">Registrarse</a></li>
-            </div>
-          </div>
-          </div>
-      </form>
-  </div>
-  <div class="header">
-    <!--Barra de menu-->
-    <input type="checkbox" id="chk">
-    <label for="chk" class="show-menu-btn">
-      <i class="fas fa-ellipsis-h"></i>
-    </label>
-    <ul class="menu">
-      <a href="../Inicio/Inicio.html">Inicio</a>
-      <a href="../Acerca de/Acerca-de.html">Acerca del Hospital</a>
-      <a href="#">Contáctanos</a>
-      <a href="../Mapa.html">Mapa del Sitio</a>
-      <a href="#">Informacion para pacientes</a>
-      <label for="chk" class="hide-menu-btn">
-        <i class="fas fa-times"></i>
-      </label>
-    </div>
-        <!--Seccion de servicios-->
-       <div class= "servicios ">
-                                               <!-- Registro-->
-         <div class="registro-usuario">
-        <section class="tabblue">
-            <ul class="tabs blue">                
-                    <!-- <input name="tabs blue" id="tab1" type=""> -->
-                    <br>
-                    <label for="tab1" class="palabraregistro"><h1>Registrate</h1></label>
-                    <div id="tab-content" class="tab-content">
-                        <form name="frm-registro" id="regist" class="frm-registro" action="../Registro/Bienvenido.html">
-
-                  <!--En caso de ya tener una cuenta-->
-                    <p class="iniciarsesion" ><string ><b>¿Ya estás registrado?</b></string><a href="#"> Inicia Sesion Aqui</a></p>
-                  <!--Textbox de nombre-->
-                     <div class="materialfield">
-                      <span class="tabaddon"><i class="txt-user"></i></span>
-                      <input type="text" name="txtname"required="required" placeholder="Nombre" class="field" required pattern="[A-Za-z]+"/>
-                     </div>
-
-                    <!--Textbox del apellido-->
-                       <div class="materialfield">
-                         <span class="tabaddon" ><i class="txt-envolve"></i></span>
-                         <input type="text" name="txtlastname" required="required" class="field"  placeholder="Apellido" required pattern="[A-Za-z]+"/>
-                       </div>
-
-                    <!--Textbox del correo -->
-                       <div class="materialfield">
-                         <span class="tabaddon"> <i class="txtcorreo"></i></span>
-                         <input type="text" name="txtcorreo" id="correo" required="required" class="field" placeholder="nombre@gmail.com"
-                          required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"/> 
-                       </div>
-
-                     <!--Textbox de la contraseña -->
-                        <div class="materialfield">
-                          <span class="tabaddon"><i class="txt-lock"></i></span>
-                          <input type="password" name="txtpas" class="contraseña" required="required" placeholder="Contraseña" maxlength="100" minlength="6" max="16" />
+                <i class="fab fa-facebook-f">
+                </i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-twitter">
+                </i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-google">
+                </i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-instagram">
+                </i>
+            </a>
+            <a class="btn" href="#">
+                <i class="fab fa-youtube">
+                </i>
+            </a>
+            <form id="busqueda">
+                <div class="caja-busqueda">
+                    <!--search box-->
+                    <input autocomplete="off" class="txt-busqueda" id="buscar" name="" onkeyup="filtrarPaginas()" type="text" value="Haz una búsqueda">
+                        <a class="boton-busqueda" href="#">
+                            <i class="fas fa-search">
+                            </i>
+                        </a>
+                        <div class="desplegable" id="lista">
+                            <div class="contenido">
+                                <li>
+                                    <a href="../Acerca de/Acerca-de.html">
+                                        Quienes somos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contáctanos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Mapa del sitio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Informacion para pacientes
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Servicios del hospital
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../Registro/Registro.html">
+                                        Registrarse
+                                    </a>
+                                </li>
+                            </div>
                         </div>
-
-                          <!--contraseña de validar 
+                    </input>
+                </div>
+            </form>
+        </div>
+        <div class="header">
+            <!--Barra de menu-->
+            <input id="chk" type="checkbox">
+                <label class="show-menu-btn" for="chk">
+                    <i class="fas fa-ellipsis-h">
+                    </i>
+                </label>
+                <ul class="menu">
+                    <a href="../Inicio/Inicio.html">
+                        Inicio
+                    </a>
+                    <a href="../Acerca de/Acerca-de.html">
+                        Acerca del Hospital
+                    </a>
+                    <a href="#">
+                        Contáctanos
+                    </a>
+                    <a href="../Mapa.html">
+                        Mapa del Sitio
+                    </a>
+                    <a href="#">
+                        Informacion para pacientes
+                    </a>
+                    <label class="hide-menu-btn" for="chk">
+                        <i class="fas fa-times">
+                        </i>
+                    </label>
+                </ul>
+            </input>
+        </div>
+        <!--Seccion de servicios-->
+        <div class="servicios ">
+            <!-- Registro-->
+            <div class="registro-usuario">
+                <section class="tabblue">
+                    <ul class="tabs blue">
+                        <!-- <input name="tabs blue" id="tab1" type=""> -->
+                        <br>
+                            <label class="palabraregistro" for="tab1">
+                                <h1>
+                                    Registrate
+                                </h1>
+                            </label>
+                            <div class="tab-content" id="tab-content">
+                                <form action="../Registro/Bienvenido.html" class="frm-registro" id="regist" name="frm-registro">
+                                    <!--En caso de ya tener una cuenta-->
+                                    <p class="iniciarsesion">
+                                        <string>
+                                            <b>
+                                                ¿Ya estás registrado?
+                                            </b>
+                                        </string>
+                                        <a href="#">
+                                            Inicia Sesion Aqui
+                                        </a>
+                                    </p>
+                                    <!--Textbox de nombre-->
+                                    <div class="materialfield">
+                                        <span class="tabaddon">
+                                            <i class="txt-user">
+                                            </i>
+                                        </span>
+                                        <input class="field" name="txtname" pattern="[A-Za-z]+" placeholder="Nombre" required="" type="text"/>
+                                    </div>
+                                    <!--Textbox del apellido-->
+                                    <div class="materialfield">
+                                        <span class="tabaddon">
+                                            <i class="txt-envolve">
+                                            </i>
+                                        </span>
+                                        <input class="field" name="txtlastname" pattern="[A-Za-z]+" placeholder="Apellido" required="" type="text"/>
+                                    </div>
+                                    <!--Textbox del correo -->
+                                    <div class="materialfield">
+                                        <span class="tabaddon">
+                                            <i class="txtcorreo">
+                                            </i>
+                                        </span>
+                                        <input class="field" id="correo" name="txtcorreo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" placeholder="nombre@gmail.com" required="" type="text"/>
+                                    </div>
+                                    <!--Textbox de la contraseña -->
+                                    <div class="materialfield">
+                                        <span class="tabaddon">
+                                            <i class="txt-lock">
+                                            </i>
+                                        </span>
+                                        <input class="contraseña" max="16" maxlength="100" minlength="6" name="txtpas" placeholder="Contraseña" required="required" type="password"/>
+                                    </div>
+                                    <!--contraseña de validar 
                                <span class="tabaddon"><i class="txt-lock"></i></span>
                                 <input type="password" name="txtpass" required="required" class="field"  placeholder="Contraseña"> -->
-
-                    <!--el boton para registrarse -->
-                    <div>
-                      <button type="submit" class="btnregistro"> Crea tu cuenta</button>
-                     <!--<div class="boton"><input type="button" name="btnsend" id="btnsend" value="Registrar">
+                                    <!--el boton para registrarse -->
+                                    <div>
+                                        <button class="btnregistro" type="submit">
+                                            Crea tu cuenta
+                                        </button>
+                                        <!--<div class="boton"><input type="button" name="btnsend" id="btnsend" value="Registrar">
                      </div>-->
-                     </div>
-
-                     <!--termina form-->
-                        </form>
-
-                    <p class="avisoterminos"> <H5> Al registrarte estarás de acuerdo <BR>
-                    con nuestros <a href="../Registro/Terminos.html">Terminos y condiciones</a> </H5></p>
-                    <br>
-               </div>            
-            </ul>
-        </section>        
-      </div>
-  	</div>
+                                    </div>
+                                    <!--termina form-->
+                                </form>
+                                <p class="avisoterminos">
+                                    <h5>
+                                        Al registrarte estarás de acuerdo
+                                        <br>
+                                            con nuestros
+                                            <a href="../Registro/Terminos.html">
+                                                Terminos y condiciones
+                                            </a>
+                                        </br>
+                                    </h5>
+                                </p>
+                                <br>
+                                </br>
+                            </div>
+                        </br>
+                    </ul>
+                </section>
+            </div>
+        </div>
         <!--footer-->
         <footer class="pie-pagina">
             Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador
