@@ -177,6 +177,7 @@ a {
     width: 100%;
     position: absolute;
     margin-top:2%;
+    line-height: 50px;
 }
 .footer{
  /* position: relative;*/
@@ -292,7 +293,7 @@ a {
   float: right;
   background-color: #FAFAFA;
   height: 450px;
-  
+
 }
 #text1{
   background-color: #FCFCF7;
@@ -305,16 +306,16 @@ a {
 .btn-Solicitar-Cita{
   margin-top: 10px;
   height: 10px;
-  
-  
-  
+
+
+
 }
 
 
 .btn-Solicitar-Cita2{
   height: 10px;
   margin-top: 10px;
-   
+
 }
 .btnAgendarCita{
   background-color: #C2EDF9;
@@ -415,5 +416,16 @@ color: #f1f1f1;
 .contenido li{
   list-style: none;
 }
-/* caja de busqueda termina*/
 
+
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
+}
+/* caja de busqueda termina*/

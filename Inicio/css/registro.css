@@ -345,7 +345,7 @@ body{
   box-sizing: border-box;
 }
 .enlace{
-  color: 
+  color:
 }
 .tabblue{
   background-color: #7f8fa6;
@@ -359,10 +359,10 @@ color: white;
   align-items: center;
   justify-content: center;
   border-radius: 3px;
-  cursor: pointer;  
+  cursor: pointer;
   border: solid;
   background-color:  #222f3e;
-  color: #fff; 
+  color: #fff;
 }
 .materialfield{
   position: relative;
@@ -374,7 +374,7 @@ color: white;
   margin: 0 auto;
   text-align: center;
   padding: 2rem;
-}  
+}
 .iniciarsesion{
   font-size: 14px;
 }
@@ -388,6 +388,8 @@ color: white;
 /*termina cuerpo*/
 
 /*Para el pie de pagina*/
+/*Termina el pie de pagina*/
+
 .pie-pagina{
   text-align: center;
   background: #222f3e;
@@ -395,5 +397,15 @@ color: white;
   height: 50px;
   top: 20px;
   width: 100%;
+	line-height: 50px;
 }
-/*Termina el pie de pagina*/
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
+}

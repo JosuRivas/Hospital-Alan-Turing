@@ -171,9 +171,9 @@ line-height: 100px;
 }
 .inner-width{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1298px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 .seccion-titulo{
@@ -198,7 +198,7 @@ line-height: 100px;
   justify-content: center;
 }
 .caja-servicios{
-  max-width: 33.33%;
+  max-width: 24.33%;
   padding: 10px;
   text-align: center;
   color: black;
@@ -263,6 +263,17 @@ line-height: 100px;
   height: 50px;
   top: 20px;
   width: 100%;
+  line-height: 50px;
+}
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
 }
 
 /* caja de busqueda empieza*/

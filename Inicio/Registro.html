@@ -41,12 +41,13 @@
           </a>
           <div id="lista" class="desplegable">
             <div class="contenido">
-              <li><a href="../Acerca de/Acerca-de.html">Quienes somos</a></li>
-              <li><a href="#">Contáctanos</a></li>
-              <li><a href="#">Mapa del sitio</a></li>
-              <li><a href="#">Informacion para pacientes</a></li>
-              <li><a href="#">Servicios del hospital</a></li>
-             <li><a href="../Registro/Registro.html">Registrarse</a></li>
+              <li><a href="../Acerca de/Acerca-de.html">Acerca de nosotros</a></li>
+              <li><a href="../Info contacto/contactanos.html">Contáctanos</a></li>
+              <li><a href="Geolocalizacion.html">Nuestra Ubicación</a></li>
+              <li><a href="Servicios.html">Servicios del hospital</a></li>
+              <li><a href="Boletin.html">Suscripción al boletín</a></li>
+             <li><a href="#">Registro en el sitio</a></li>
+             <li><a href="../Creditos/creditos.html">Créditos</a></li>
             </div>
           </div>
           </div>
@@ -59,11 +60,12 @@
       <i class="fas fa-ellipsis-h"></i>
     </label>
     <ul class="menu">
-      <a href="../Inicio/Inicio.html">Inicio</a>
+      <a href="Inicio.html">Inicio</a>
       <a href="../Acerca de/Acerca-de.html">Acerca del Hospital</a>
-      <a href="#">Contáctanos</a>
-      <a href="../Mapa.html">Mapa del Sitio</a>
-      <a href="#">Informacion para pacientes</a>
+      <a href="../Info contacto/contactanos.html">Contáctanos</a>
+      <a href="Geolocalizacion.html">Nuestra Ubicación</a>
+      <a href="Boletin.html">Boletin de noticias</a>
+      <a href="#">Registro/Inicio de sesión</a>
       <label for="chk" class="hide-menu-btn">
         <i class="fas fa-times"></i>
       </label>
@@ -73,7 +75,7 @@
                                                <!-- Registro-->
          <div class="registro-usuario">
         <section class="tabblue">
-            <ul class="tabs blue">                
+            <ul class="tabs blue">
                     <!-- <input name="tabs blue" id="tab1" type=""> -->
                     <br>
                     <label for="tab1" class="palabraregistro"><h1>Registrate</h1></label>
@@ -81,7 +83,7 @@
                         <form name="frm-registro" id="regist" class="frm-registro" action="../Registro/Bienvenido.html">
 
                   <!--En caso de ya tener una cuenta-->
-                    <p class="iniciarsesion" ><string ><b>¿Ya estás registrado?</b></string><a href="#"> Inicia Sesion Aqui</a></p>
+                    <p class="iniciarsesion" ><string ><b>¿Ya estás registrado?</b></string><a href="../login/login.html"> Inicia Sesion Aqui</a></p>
                   <!--Textbox de nombre-->
                      <div class="materialfield">
                       <span class="tabaddon"><i class="txt-user"></i></span>
@@ -98,7 +100,7 @@
                        <div class="materialfield">
                          <span class="tabaddon"> <i class="txtcorreo"></i></span>
                          <input type="text" name="txtcorreo" id="correo" required="required" class="field" placeholder="nombre@gmail.com"
-                          required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"/> 
+                          required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"/>
                        </div>
 
                      <!--Textbox de la contraseña -->
@@ -107,7 +109,7 @@
                           <input type="password" name="txtpas" class="contraseña" required="required" placeholder="Contraseña" maxlength="100" minlength="6" max="16" />
                         </div>
 
-                          <!--contraseña de validar 
+                          <!--contraseña de validar
                                <span class="tabaddon"><i class="txt-lock"></i></span>
                                 <input type="password" name="txtpass" required="required" class="field"  placeholder="Contraseña"> -->
 
@@ -124,14 +126,12 @@
                     <p class="avisoterminos"> <H5> Al registrarte estarás de acuerdo <BR>
                     con nuestros <a href="../Registro/Terminos.html">Terminos y condiciones</a> </H5></p>
                     <br>
-               </div>            
+               </div>
             </ul>
-        </section>        
+        </section>
       </div>
   	</div>
         <!--footer-->
-        <footer class="pie-pagina">
-            Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador
-        </footer>
+        <footer class="pie-pagina"><a href="../Creditos/creditos.html" class="enlace">Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador</a></footer>
     </body>
 </html>

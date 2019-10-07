@@ -179,8 +179,8 @@ line-height: 100px;
 .servicios{
   text-align: center;
 }
-.tel{ 
-  
+.tel{
+
   width: 200px;
   height: 200px;
   left: 200px;
@@ -207,3 +207,109 @@ line-height: 100px;
   width: 100%;
 }
 /*Termina el pie de pagina*/
+
+.caja-busqueda{
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  background: #f1f1f1;
+  height: 40px;
+  border-radius: 30px;
+  padding: 13px;
+
+}
+.caja-busqueda:hover > .txt-busqueda{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.caja-busqueda:hover > .boton-busqueda{
+background: #192a56;
+color: #f1f1f1;
+
+}
+
+.boton-busqueda{
+  color: #192a56;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.txt-busqueda{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 16px;
+  transition: 0.4s;
+  color: #192a56;
+  line-height: 40px;
+  width: 0px;
+}
+
+.desplegable{
+  position: relative;
+  display: inline-block;
+}
+
+.contenido{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  z-index: -1;
+  right: -8px;
+  top: 37px;
+
+}
+
+.contenido a{
+  color: #222f3e;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.caja-busqueda:hover .contenido{
+  display: block;
+}
+
+.contenido a:hover{
+   background-color: #222f3e;
+   color: #f1f1f1;
+   transition: 0.2s linear;
+   cursor: pointer;
+}
+
+.contenido li{
+  list-style: none;
+}
+
+.pie-pagina{
+  text-align: center;
+  background: #222f3e;
+  color: #fff;
+  height: 50px;
+  top: 20px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
+}

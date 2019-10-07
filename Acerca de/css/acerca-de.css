@@ -169,9 +169,14 @@ line-height: 100px;
   height: 350px;
 }
 
+.texto-imagen{
+  width: 600px;
+  justify-content: center;
+}
+
 .contenido{
 position: relative;
-left: 255px;
+left: 400px;
 float: left;
 padding-right: 18px;
 margin-right: 30px;
@@ -203,17 +208,17 @@ aside > header{
 
 }
 
-.menu-derecha a:hover{
-  color:#487eb0;
-}
 
 .pie-pagina{
   text-align: center;
   background: #222f3e;
   color: #fff;
-  height: 70px;
-  position: relative;
-  bottom: -600px;
+  height: 80px;
+  position: absolute;
+  bottom: -260px;
+  width: 100%;
+  line-height: 74px;
+
 }
 /* caja de busqueda empieza*/
 .caja-busqueda{
@@ -300,6 +305,17 @@ color: #f1f1f1;
 
 .enlaces li{
   list-style: none;
+}
+
+
+.enlace{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace:hover{
+  color: #48dbfb;
+  transition: 0.3s linear;
 }
 
 /* caja de busqueda termina /*

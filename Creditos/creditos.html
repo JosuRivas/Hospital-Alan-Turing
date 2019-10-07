@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/creditos.css">
+  <script src="https://kit.fontawesome.com/5d99ebdb26.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="medio">  <!--Barra de redes sociales-->
+    <figure>
+      <img class="logo"src="img/hospital-alt-solid.svg" alt="">
+      <figcaption>Hospital Alan Turing</figcaption>
+    </figure>
+
+    <a class="btn" href="https://es-la.facebook.com/">
+     <i class="fab fa-facebook-f"></i>
+    </a>
+    <a class="btn" href="https://twitter.com/?lang=es">
+     <i class="fab fa-twitter"></i>
+    </a>
+    <a class="btn" href="https://aboutme.google.com/u/0/?referer=gplus">
+     <i class="fab fa-google"></i>
+    </a>
+    <a class="btn" href="https://www.instagram.com/accounts/login/?hl=es-la">
+     <i class="fab fa-instagram"></i>
+    </a>
+    <a class="btn" href="https://www.youtube.com/">
+     <i class="fab fa-youtube"></i>
+    </a>
+      <form id="busqueda">
+          <div class="caja-busqueda"><!--search box-->
+        <input class="txt-busqueda" type="text" name="" value="Haz una búsqueda" id="buscar" onkeyup="filtrarPaginas()" autocomplete="off">
+          <a href="#" class="boton-busqueda">
+            <i class="fas fa-search"></i>
+          </a>
+          <div id="lista" class="desplegable">
+            <div class="contenido">
+              <li><a href="../Acerca de/Acerca-de.html">Acerca de nosotros</a></li>
+              <li><a href="..Info contacto/contactanos.html">Contáctanos</a></li>
+              <li><a href="../Inicio/Geolocalizacion.html">Nuestra ubicación</a></li>
+              <li><a href="../Inicio/Servicios.html">Servicios del hospital</a></li>
+              <li><a href="../Inicio/Boletin.html">Suscripción a boletín</a></li>
+              <li><a href="../Inicio/Registro.html">Registro en el sitio</a></li>
+              <li><a href="../Creditos/creditos.html">Créditos</a></li>
+            </div>
+          </div>
+          </div>
+
+      </form>
+  </div>
+  <div class="header">
+    <!--Barra de menu-->
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+    <ul class="menu">
+      <a href="../Inicio/Inicio.html">Inicio</a>
+      <a href="../Acerca de/Acerca-de.html">Acerca del Hospital</a>
+      <a href="../Info contacto/contactanos.html">Contáctanos</a>
+      <a href="../Inicio/Geolocalizacion.html">Nuestra Ubicación</a>
+      <a href="../Inicio/Boletin.html">Boletín de noticias</a>
+      <a href="../Inicio/Registro.html">Registro/Inicio de sesión</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </div>
+   <div class="creditos">
+     <h3>Pagina Web desarrollada por:</h3>
+     <ul>
+       <li>Ronald Oswaldo Zelaya Chica ZC180214 </li>
+       <li>Katherine Dayanna Díaz Zúniga DZ180675 </li>
+       <li>Josué Alexander Rivas Fabián RF181492</li>
+       <li>Cesar Josué Rivas González RG180141 </li>
+       <li>Steven Armando Barrera Iraheta BI180836</li>
+       <li>Anthony Alexander Vásquez Iraheta VI180187</li>
+     </ul>
+
+   </div>
+    <footer class="pie-pagina"><a href="#" class="enlace">Todos los derechos reservados - Web desarrollada por estudiantes de la Universidad Don Bosco El Salvador</a></footer>
+    <script src="js/inicio.js"></script>
+</body>
+</html>
